@@ -1,5 +1,5 @@
 import './App.css'
-import { GameManger } from './components/GameManger/GameManger'
+import { GameManager } from './components/GameManager/GameManager'
 
 
 
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <GameManger />
+      <GameManager />
     </>
   )
 }
