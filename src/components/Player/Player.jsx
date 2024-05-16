@@ -7,7 +7,7 @@ import dice4 from '../../assets/Images/dice4.svg';
 import dice5 from '../../assets/Images/dice5.svg';
 import dice6 from '../../assets/Images/dice6.svg';
 
-export const Player = ({ name, score }) => {
+export const Player = ({ name, score, wins }) => {
     
     const diceImages = [dice1, dice2, dice3, dice4, dice5, dice6];
 
@@ -22,6 +22,7 @@ export const Player = ({ name, score }) => {
         <div>
             <p>Name: {name}</p>
             <img src={renderDiceImage()} alt={`Dice ${score}`} />
+            <p>Wins: {wins}</p>
         </div>
     );
 };
